@@ -1,0 +1,58 @@
+body{
+    background-color: rgb(167, 235, 247);/* Cor do fundo */
+
+}
+.texto{
+    font-size: 20px;
+    /* Tamanho da fonte */
+
+    line-height: 35px;
+    /* Altura da entre linhas */
+
+    color: brown;
+    /* Cor do texto */
+
+    font-style: italic;
+    /* Estilo da fonte */
+
+    font-weight: bold;
+    /* Largura do texto */
+
+    text-align: left;
+    /* Alinhamento do texto */
+
+}
+.texto a{
+    text-align: center;
+    color: darkblue;/* Cor do link */
+
+    text-transform: uppercase;
+    /* uppercase Deixa todas as letras maiúsculas, lowercase deixa todas as letras minúsculas */
+
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+.borda{
+    font-size: large;
+    text-align: center;
+    width: 500px;
+    border: 5px solid rgb(0, 0, 0);
+    /* Tamanho, tipo, cor */
+
+    margin: 0 auto;
+    margin-top: 40px;
+    /* top, left, right, bottom */
+
+    padding: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    /* Margem dentro da borda */
+}
+.lista{
+    list-style-position: inside
+    /* Posição do marcado inside/outside */
+    list-style-type: square;
+
+}
